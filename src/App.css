@@ -36,3 +36,6 @@
 .showcase {
   border: 1px solid black;
 }
+.showcase .home {
+  margin-top: 15%;
+}

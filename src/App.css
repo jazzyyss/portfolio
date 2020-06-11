@@ -1,3 +1,6 @@
+* {
+  text-decoration: none;
+}
 .App {
   text-align: center;
   display: grid;
@@ -17,6 +20,11 @@
   font-weight: 800;
   font-size: 4rem;
   text-shadow: 2px 2px 3px red;
+}
+.navbar .linksMain {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  align-items: center;
 }
 /*showcase*/
 .showcase {

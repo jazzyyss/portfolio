@@ -6,6 +6,7 @@ import Skills from "./components/skills";
 import MyWork from "./components/myWork";
 import Contact from "./components/contact";
 import Navbar from "./components/navbar";
+import NotFound from "./components/notFound";
 import "./App.css";
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
             <Route path="/myWork" component={MyWork} />
             <Route path="/about" component={About} />
             <Route path="/" exact component={Home} />
+            <Route path="/not-found" component={NotFound} />
+            <Redirect to="/not-found" />
           </Switch>
         </div>
       </div>

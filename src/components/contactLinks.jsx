@@ -1,6 +1,6 @@
 import React from "react";
 const ContactLnks = (props) => {
-  return <h1>this is contact links</h1>;
+  return <div className="navChild contactMain">This is ContactLnks</div>;
 };
 
 export default ContactLnks;

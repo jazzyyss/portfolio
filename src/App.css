@@ -1,11 +1,24 @@
 .App {
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 19fr;
+  height: 100vh;
 }
+/*navbar*/
 .navbar {
-  color: red;
   display: grid;
   grid-template-rows: 1fr 4fr 2fr;
+  text-justify: center;
 }
-.navbar h1 {
+.navbar .navChild {
+  border: 1px solid black;
+}
+.navbar .logoMain {
+  font-weight: 800;
+  font-size: 4rem;
+  text-shadow: 2px 2px 3px red;
+}
+/*showcase*/
+.showcase {
   border: 1px solid black;
 }

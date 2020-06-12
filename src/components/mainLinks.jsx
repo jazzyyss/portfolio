@@ -1,14 +1,44 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const MainLinks = (props) => {
   return (
     <div className="navChild linksMain">
-      <Link to="/">Home</Link>
-      <Link to="/about">about</Link>
-      <Link to="/skills">skills</Link>
-      <Link to="/myWork">myWork</Link>
-      <Link to="/contact">contact</Link>
+      <NavLink
+        to="/home"
+        style={{ color: "black" }}
+        activeStyle={{ color: "red" }}
+      >
+        <i className="fa fa-home" />
+      </NavLink>
+      <NavLink
+        to="/about"
+        style={{ color: "black" }}
+        activeStyle={{ color: "red" }}
+      >
+        <i className="fa fa-user" />
+      </NavLink>
+      <NavLink
+        to="/skills"
+        style={{ color: "black" }}
+        activeStyle={{ color: "red" }}
+      >
+        <i className="fa fa-cog" />
+      </NavLink>
+      <NavLink
+        to="/myWork"
+        style={{ color: "black" }}
+        activeStyle={{ color: "red" }}
+      >
+        <i className="fa fa-tasks" />
+      </NavLink>
+      <NavLink
+        to="/contact"
+        style={{ color: "black" }}
+        activeStyle={{ color: "red" }}
+      >
+        <i className="fa fa-address-card" />
+      </NavLink>
     </div>
   );
 };

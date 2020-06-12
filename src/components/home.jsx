@@ -5,7 +5,9 @@ class Home extends Component {
     return (
       <div className="home">
         <h1>Hi,</h1>
-        <h1>I'm Jaspreet Singh</h1>
+        <h1>
+          I'm <span>Jaspreet Singh</span>
+        </h1>
         <h4>MERN stack, React developer.</h4>
       </div>
     );

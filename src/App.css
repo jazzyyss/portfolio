@@ -115,22 +115,25 @@
   font-size: 2rem;
 }
 /*contact*/
-.showcase .contact {
-}
 .showcase .contact h2 {
   text-decoration: underline;
+}
+.showcase .contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 12%;
 }
 .showcase .contact .contactInfo {
   background-color: black;
   color: white;
   opacity: 90%;
-  padding: 4rem 2rem;
   text-align: left;
-  position: absolute;
-  left: 40%;
-  top: 50%;
-  transform: translate(-40%, -50%);
   z-index: 1;
+  width: 200px;
+  padding: 1rem;
+  height: 200px;
+  margin-top: 7%;
+  justify-self: end;
 }
 .showcase .contact .contactInfo div {
   margin-bottom: 0.3rem;
@@ -141,15 +144,14 @@
 .showcase .contact .sendMessage {
   background-color: #ccc;
   opacity: 85%;
-  padding: 5rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-22%, -50%);
+  width: 400px;
+  height: 300px;
+  margin-left: -10%;
 }
 .showcase .contact .sendMessage .box {
-  margin-right: -50%;
+  padding-top: 7%;
 }
+
 .showcase .contact .sendMessage input,
 button {
   background: none;
